@@ -1,6 +1,6 @@
 # A web app that fetches country details using REST API.
 
-Exercise for personal education.
+Exercise for personal education.\
 The API is available at: https://restcountries.com/ 
 
 ## Deployed to Netlify
