@@ -1,0 +1,93 @@
+
+
+.img {
+  border-radius: 2px 2px 1px 1px;
+  width: 120px;
+  height: 100px;
+}
+
+.big-img {
+  height: 300px;
+}
+
+.section-population {
+  width: 100%;
+  align-items: center;
+}
+
+.form{
+  background-color: rgb(30, 101, 242);
+  align-items: center;
+  padding-bottom: 1%;
+  padding-top: 0.8%;
+ }
+
+th {
+  text-align: left;
+  table-layout: fixed;
+  width: 100px;
+}
+
+td {
+  text-align: left;
+  width: 150px;
+  overflow: hidden;
+}
+
+h2 {
+  color: white;
+  font-family: ui-sans-serif, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+text {
+  font-size: large;
+}
+
+.country-info {
+  font-size: x-large;
+  font-family: ui-sans-serif, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  text-align: center;
+  margin: auto;
+
+}
+
+.country-name {
+  text-align: center;
+}
+
+span {
+  color: blue;
+  font-weight: bold;
+}
+
+.search-bar {
+  text-align: right;
+  padding-right: 1%;
+}
+
+.search-input {
+  height: 30px;
+  width: 400px;
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+  color: white;
+  background-color: rgb(65, 162, 241); 
+  border-radius: 10px;
+  outline: 0;
+  border: 0;
+}
+
+.link {
+  font-size: xx-large;
+  font-weight: bold;
+  color: black; 
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }

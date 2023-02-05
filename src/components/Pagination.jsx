@@ -1,0 +1,36 @@
+import React from 'react'
+
+const Pagination1 = ({countriesPerPage, totalCountries, updateCountryPerPage, setCurrentPage}) => {
+    const pageNumbers = [];
+    
+    const totalPages = Math.ceil(totalCountries/countriesPerPage );
+
+
+    /* to test the no of pages to be displayed*/
+
+    const test = Array.from({length: totalPages}, ( v,i) => i)
+
+    for(let i = 1; i <= Math.ceil(totalCountries / countriesPerPage); i++) {
+        pageNumbers.push(i);
+    }
+  return (
+    <div>
+        <select value={countriesPerPage} name="page" id="page-select" onChange={(event) => updateCountryPerPage(event.target.value)}>
+          <h4> Rows per page </h4>
+   
+    <option value="5" >5</option>
+    <option value="10">10</option>
+    <option value="20">20</option>
+    <option value="30">30</option>
+    <option value="40">40</option>
+    <option value="50">50</option>
+</select>
+
+{test.map((item) => {
+    return <button type="button" key={`button-${item}`}onClick={() => setCurrentPage(item)}>{item}</button>
+    })}
+    </div>
+  )
+}
+
+export default Pagination1
