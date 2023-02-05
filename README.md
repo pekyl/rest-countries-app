@@ -1,5 +1,12 @@
 # A web app that fetches country details using REST API.
 
+Exercise for personal education.
+The API is available at: https://restcountries.com/ 
+
+## Deployed to Netlify
+
+Link to the deployed app: https://dashing-pithivier-30fcfa.netlify.app
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
