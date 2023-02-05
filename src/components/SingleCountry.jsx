@@ -32,6 +32,7 @@ export default function SingleCountry() {
             <table className="country-info">
               <th>
                 <h1 className="country-name">{item.name.official}</h1>
+                <p className="country-name">{item.capital}</p>
               </th>
               <tr><td>
                 <img src={item.flags.svg} alt={item.name.common} className="big-img" />
