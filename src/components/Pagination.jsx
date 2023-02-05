@@ -1,23 +1,20 @@
 import React from 'react'
 
+
 const Pagination1 = ({countriesPerPage, totalCountries, updateCountryPerPage, setCurrentPage}) => {
     const pageNumbers = [];
-    
     const totalPages = Math.ceil(totalCountries/countriesPerPage );
 
-
     /* to test the no of pages to be displayed*/
-
     const test = Array.from({length: totalPages}, ( v,i) => i)
 
     for(let i = 1; i <= Math.ceil(totalCountries / countriesPerPage); i++) {
         pageNumbers.push(i);
     }
+
   return (
     <div>
-        <select value={countriesPerPage} name="page" id="page-select" onChange={(event) => updateCountryPerPage(event.target.value)}>
-          <h4> Rows per page </h4>
-   
+        <select value={countriesPerPage} name="page" id="page-select" onChange={(event) => updateCountryPerPage(event.target.value)}>   
     <option value="5" >5</option>
     <option value="10">10</option>
     <option value="20">20</option>

@@ -8,9 +8,7 @@ import Paper from '@mui/material/Paper';
 
 export default function Tablehead({}) {
   return (
-    
     <>
-
       <TableContainer component={Paper} className="table">
         <Table sx={{ minWidth: 650 }} aria-label="caption table">
           <TableHead>
@@ -23,9 +21,7 @@ export default function Tablehead({}) {
           </TableHead>
         </Table>   
       </TableContainer>
-        
-    </>     
-        
+    </>
   );
 }
         

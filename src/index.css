@@ -1,4 +1,44 @@
+h2 {
+  color: white;
+  font-family: ui-sans-serif, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
 
+text {
+  font-size: large;
+}
+
+th {
+  text-align: left;
+  table-layout: fixed;
+  width: 100px;
+}
+
+td {
+  text-align: left;
+  width: 150px;
+  overflow: hidden;
+}
+
+span {
+  color: blue;
+  font-weight: bold;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
 
 .img {
   border-radius: 2px 2px 1px 1px;
@@ -22,42 +62,15 @@
   padding-top: 0.8%;
  }
 
-th {
-  text-align: left;
-  table-layout: fixed;
-  width: 100px;
-}
-
-td {
-  text-align: left;
-  width: 150px;
-  overflow: hidden;
-}
-
-h2 {
-  color: white;
-  font-family: ui-sans-serif, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-}
-
-text {
-  font-size: large;
-}
-
 .country-info {
   font-size: x-large;
   font-family: ui-sans-serif, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   text-align: center;
   margin: auto;
-
 }
 
 .country-name {
   text-align: center;
-}
-
-span {
-  color: blue;
-  font-weight: bold;
 }
 
 .search-bar {
@@ -83,11 +96,3 @@ span {
   font-weight: bold;
   color: black; 
 }
-
-a:link { text-decoration: none; }
-
-a:visited { text-decoration: none; }
-
-a:hover { text-decoration: none; }
-
-a:active { text-decoration: none; }

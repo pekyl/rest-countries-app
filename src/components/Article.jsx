@@ -15,6 +15,7 @@ export default function Article({
   population,
   languages,
 }) {
+  
   return (
     <>
       <TableContainer component={Paper}>
@@ -30,14 +31,14 @@ export default function Article({
                 <li key={lang}>{languages[lang]}</li>
                 )}
               </TableCell>
-              <TableCell><Link to={`/${name.common}`}className="link">&#8250;</Link></TableCell>
+              <TableCell>
+                <Link to={`/${name.common}`}className="link">&#8250;</Link>
+              </TableCell>
             </TableRow>
           </TableBody>
         </Table>   
       </TableContainer>
-        
-    </>     
-        
+    </> 
   );
 }
         

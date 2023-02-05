@@ -10,15 +10,12 @@ export default function Countries() {
   const [countries, setCountries] = useState([]);
   const [countriesPerPage, setCountriesPerPage] = useState(5);
   const [currentPage, setCurrentPage] = useState(1);
-  
   const [searchText, setSearchText] = useState("");
-
 
   const updateCountryPerPage = (resultsPerPage) => {
       setCountriesPerPage(resultsPerPage);
       setCurrentPage(1);
   }
-
 
   useEffect(() => {
     document.title = `Country`;
@@ -94,10 +91,6 @@ return (
           <Pagination totalCountries= {countries.length} countriesPerPage= {countriesPerPage} updateCountryPerPage= {updateCountryPerPage} setCurrentPage= {setCurrentPage} />
 
         </section>
-        
-        
       )}
-
-
   </>
 )}

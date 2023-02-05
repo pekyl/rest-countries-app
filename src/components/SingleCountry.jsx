@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 
+
 export default function SingleCountry() {
   const [country, setCountry] = useState([]);
   const { name } = useParams();
@@ -27,21 +28,14 @@ export default function SingleCountry() {
     <>
       <section className="section-population">
         {country.map((item) => (
-          <div
-            key={item.population}
-            className="item-population"
-          >
-            
+          <div key={item.population} className="item-population">
             <table className="country-info">
               <th>
-                <h1 className="country-name">
-                  {item.name.official}
-                </h1>
+                <h1 className="country-name">{item.name.official}</h1>
               </th>
               <tr><td>
                 <img src={item.flags.svg} alt={item.name.common} className="big-img" />
-              </td></tr>
-              
+              </td></tr>              
               <tr><td className="country-text">
                 The country belongs to <span>{item.region}</span> and <span>{item.subregion}</span> sub-region.
                 Located at the <span>{item.capitalInfo.latlng[0]}</span> &#176;N and <span>{item.capitalInfo.latlng[1]}</span> &#176;W, 
@@ -52,7 +46,6 @@ export default function SingleCountry() {
               </td></tr>
               <br/>
               <br/>
-
               <Link
                 to="/"
                 className="link">
