@@ -5,7 +5,7 @@ The API is available at: https://restcountries.com/
 
 ## Deployed to Netlify
 
-Link to the deployed app: https://dashing-pithivier-30fcfa.netlify.app
+Link to the deployed app: https://golden-banoffee-413f4f.netlify.app
 
 ## Getting Started with Create React App
 
